@@ -66,11 +66,15 @@ header li a{
     width: 100px;  
 }
 
+
+
 #background{
     height: 100%;
     display: flex;
+    flex-direction: column;
     background-color: #222625;
     justify-content: center;
+    align-items: center;
 
 
 }
@@ -114,85 +118,31 @@ header li a{
    border-width: 3px;
    
 }
-
-
-#login-box{
-    visibility: hidden;
-    position: absolute;
-    width: 60vw;
-    height: 300px;
-    opacity: 0.90;
-    padding: 2px;
-    margin-top: 30px;
-    text-align: center;
-    display: flex;  
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 0px 0px 50px;
-    background-color: cadetblue;
-    margin-bottom: 40px;
-}
-
-#label-login{
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 0.08em 0.08em #000;
-    color: #DAA520;
+.slides{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    
+    flex-direction: row;
+    margin: 20px;
+ 
+
 }
 
-#input-login{
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    
-}
-#input-login:focus{
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    outline: none;
-    box-shadow: 0px 0px 5px 5px black;
-    
-}
-
-#div-password{  
+.filme{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
     
-    justify-content: space-between;
-    margin: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: white;
 }
-
-#input-password{
-    margin: 10px;
-    font-size: 20px;
-    width: 56vw;
-    /* border-radius: 8px; */
-    background-color: white;
-    outline: none;
+.filme a{
+    margin: 3px
 }
+.filme img{
+    height: 500px;
+    width: 400px;
 
-.material-icons{
-    font-size: 30px;
-}
-
-.geral-button{
-
-    margin: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: #050b2c;
-    padding: 8px;
-    color: #BF8B4B;
-    
-    
 }
 
 footer{
