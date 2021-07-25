@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/login-style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>Filmes</li>
+            <li>Séries</li>
+            <li>Login</li>
+        </ul>
+        <div><input type="text" name="pesquisa" id="search" placeholder="Faça sua pesquisa aqui"></div>
+    </header>
+    <main>
+        <div id="background">
+            <div id="login-box">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <label id="label-login">Login</label>
+                    <i style="text-shadow: 0.1em 0.1em #000; font-size: 40px; color: white;" class="material-icons">login</i>
+                </div>
+                <input id="input-login"placeholder="Seu nome de usuário"/>
+                <div id="div-password">
+                    <input id="input-password" type="password" placeholder="Sua senha"/>
+                    <button style="background-color: white; margin-right: 10px; border-radius: 30px;">
+                        <i id="eye" style="color: grey;" class="material-icons">visibility_off</i>
+                    </button>
+                </div>
+                <div>
+                    <button id="button-login"class="geral-button">Login</button>
+                    <button id="button-cadastro" class="geral-button">Cadastre-se</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+    </main>
+    <footer>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>
