@@ -6,6 +6,8 @@
 }
 body{
     height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -63,9 +65,61 @@ header li a{
     height: 24px;
     width: 100px;  
 }
-#login-box{
 
-    width: 500px;
+#background{
+    height: 100%;
+    display: flex;
+    background-color: #222625;
+    justify-content: center;
+
+
+}
+#container{
+    height: fit-content;
+    width:  700px;
+    background-color: #fffafa;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#content{
+    margin: 4vh;
+}
+.movie{
+    width:  60vh;
+    height: fit-content;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style:  solid;
+    border-color: #040926;
+    border-width: 1vh;
+    padding: 2vh 2vh;
+    background-color: aliceblue;
+}
+.movie i{
+   padding-left: 25vh;
+   color: green;
+
+}
+.movie img{
+    width: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   border-style:  solid;
+   border-width: 3px;
+   
+}
+
+
+#login-box{
+    visibility: hidden;
+    position: absolute;
+    width: 60vw;
     height: 300px;
     opacity: 0.90;
     padding: 2px;
@@ -75,14 +129,15 @@ header li a{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0px 0px 50px;
-    background-color: #caceeb;
+    background-color: cadetblue;
+    margin-bottom: 40px;
 }
 
 #label-login{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 0.08em 0.08em #000;
-    color:#BF8B4B;
+    color: #DAA520;
     display: flex;
     justify-content: center;
     
@@ -101,7 +156,7 @@ header li a{
     font-size: 20px;
     border-radius: 10px;
     outline: none;
-    box-shadow: 0px 0px 10px 10px black;
+    box-shadow: 0px 0px 5px 5px black;
     
 }
 
@@ -133,25 +188,17 @@ header li a{
     margin: 10px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: #040926;
-    color: #BF8B4B;
+    background-color: #050b2c;
     padding: 8px;
+    color: #BF8B4B;
     
     
 }
 
-#background{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-color: #222625;
-}
 footer{
     height: 40px;
     background-color: #040926;
     color: #DAA520;
     text-align: center;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
