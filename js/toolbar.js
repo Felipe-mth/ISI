@@ -10,8 +10,13 @@ class Toolbar extends HTMLElement {
             </div>
             <ul>
                 <li> <a href="./index.html">Home</a>  </li>
+<<<<<<< HEAD
                 <li>Filmes</li>
                 <li><a href="./series.html">Séries</li>
+=======
+                <li> <a href="./filmes.html">Filmes</a> </li>
+                <li>Séries</li>
+>>>>>>> 4d30361e19e51c8bcc2da6106e0d5cad61972091
                 <li><a href="./login.html">Login</a></li>
             </ul>
             <div class="spacer"></div>
