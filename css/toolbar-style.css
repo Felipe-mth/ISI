@@ -59,17 +59,35 @@ header li a{
 .busca {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 20px;
-    margin-right: vw;
+    margin-right: 4vw;
+    width: 28%;
+    background-color: white;
+    border-radius: 30px;
+    
+    
 }
 .busca input{
-    width: 190px;
-    height: 20px;
-    padding: 12px;
-}
-.busca button{
+    display: flex;
+    border-radius: 30px;
+    width: 80%;
+    height: 15%;
+    margin-left: 10px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 2px;
     
-    height: 24px;
-    width: 100px;  
+
 }
 
+.submit{
+    
+    border-radius: 30px;
+    background-color: grey;
+    width: 20%;
+}
+.material-icons{
+    padding: 2px;
+}
