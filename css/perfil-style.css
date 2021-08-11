@@ -9,8 +9,6 @@ main{
     top: 64px;
 }
 
-
-
 #background{
     height: 100vh;
     display: flex;
@@ -33,6 +31,10 @@ main{
 }
 #content{
     margin: 4vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #label-perfil{
     font-size: 40px;
